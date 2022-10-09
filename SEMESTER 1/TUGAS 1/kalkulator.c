@@ -28,19 +28,21 @@ void main() {
         if(operasi == '+') {
           printf("\n================= PENJUMLAHAN =================\n");
           hasil = bilangan_1 + bilangan_2;
-          printf("Hasil \t\t\t\t\t: %d", hasil);
         }else if(operasi == '-') {
           printf("\n================= PENGURANGAN =================\n");
           hasil = bilangan_1 - bilangan_2;
-          printf("Hasil \t\t\t\t\t: %d", hasil);
         }else if(operasi == '*') {
           printf("\n================== PERKALIAN ==================\n");
           hasil = bilangan_1 * bilangan_2;
-          printf("Hasil \t\t\t\t\t: %d", hasil);
         }else if(operasi == '/') {
           printf("\n================== PEMBAGIAN ==================\n");
-          hasilBagi = (float) bilangan_1 / bilangan_2; 
+          hasilBagi = (float) bilangan_1 / bilangan_2; // Casting to float
           printf("Hasil \t\t\t\t\t: %.2f", hasilBagi);
+        }
+
+        // Result
+        if(hasil) {
+          printf("Hasil \t\t\t\t\t: %d", hasil);
         }
 
         // Comparison logic
