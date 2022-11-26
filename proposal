@@ -10,20 +10,4 @@ Pengguna dari kacamata augmented reality di fokuskan pada orang-orang yang menga
 Salah satu kesulitan yang sering terjadi pada pengendara yang masih membutuhkan bantuan maps yang ada di smartphone yaitu pada saat berkendara sendirian apalagi pengendara motor. Diharuskan memegang smartphone di tangan kiri untuk selalu memantau arah dari maps, selain di pegang biasanya menggunakan stand atau tempat khusus yang menjadi tempat smartphone tersebut sehingga ini dapat membahayakan pengendara itu sendiri, selain dapat membahayakan diri sendiri ternyata memberikan kesempatan pada perampok atau maling yang mengincar smartphone apalagi di jalan raya yang rawan dengan hal tersebut.
 
 
-Jawaban no 2
-int angka_1,angka_2,angka_3;
 
-  scanf("%d %d %d", &angka_1, &angka_2, &angka_3);
-
-
-  if(angka_1 + angka_2 == angka_3) {
-    printf("BENAR");
-  }else if(angka_3 + angka_1 == angka_2){
-    printf("BENAR");
-  }else if( angka_2 + angka_3 == angka_1) {
-    // printf("%d", a);
-    printf("BENAR");
-  }else {
-    printf("SALAH");
-  }
-  
